@@ -20,7 +20,10 @@ $(".play").click(function(){
     let computerChoice = "scissors";
    $(".computerChoice").text(computerChoice);
  } 
-
+  if(userChoice <= 1){
+    computerChoice = "Rock";
+  }else if (userChoice > 1 && userChoice
+  }
 });
 
 //
